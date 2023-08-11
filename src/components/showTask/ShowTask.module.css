@@ -3,7 +3,7 @@
   margin: auto;
   max-height: 55vh;
   padding: 2px;
-  background-color: #ffbf80;
+  background-color: black;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   overflow-y: scroll;
 }
@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
-  background-color: #ffff99;
+  background-color: rgba(99, 216, 177, 0.687);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   font-size: 0.8rem;
   color: black;
@@ -33,11 +33,11 @@
   gap: 1rem;
   cursor: pointer;
   font-size: 1.3rem;
-  color: #666;
+  color: #000000;
   transition: color 0.3s;
 }
 
 .task .icons:hover {
-  color: #cc5200;
+  color: #0a5638d6;
   transform: scale(1.2);
 }

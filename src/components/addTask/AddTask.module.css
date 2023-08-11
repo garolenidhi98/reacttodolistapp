@@ -1,7 +1,7 @@
 .taskContainer {
     width: 95%;
     height: 20vh;
-    background-color: #ffbf80;
+    background-color: rgb(0, 0, 0);
     margin: auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
@@ -25,7 +25,7 @@
     font-weight: bold;
     text-align: center;
     margin-left: 45px;
-    color: black;
+    color: rgb(255, 255, 255);
     transition: 0.3s, transform 0.3s;
   }
   
@@ -38,7 +38,7 @@
     padding: 0.5rem;
     font-size: 1rem;
     font-family: Arial, sans-serif;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(200, 248, 232, 0.687);
     border-radius: 4px;
     margin-bottom: 10px;
   }
@@ -47,8 +47,8 @@
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-    background-color: #ffffcc;
-    color: black;
+    background-color: rgba(200, 248, 232, 0.687);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -57,7 +57,7 @@
   }
   
   .taskContainer form button:hover {
-    background-color: #ffff80;
+    background-color: rgba(64, 142, 116, 0.687);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
